@@ -1,0 +1,3 @@
+top.sc_xy.xrpc.serialize.impl.MetaDataSerializer
+top.sc_xy.xrpc.serialize.impl.StringSerializer
+top.sc_xy.xrpc.serialize.impl.RpcRequestSerializer
