@@ -55,6 +55,7 @@ public class RpcRequestSerializer implements Serializer<RpcRequest> {
 
         len = buffer.getInt();
         tmp = new byte[len];
+        buffer.get(tmp);
         byte[] argument = tmp;
         return new RpcRequest(interfaceName, methodName, argument);
     }
