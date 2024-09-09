@@ -5,9 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d58678e6-afa2-4036-ba0d-0a3825a7f6a2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/xrpc-core/src/main/java/top/sc_xy/xrpc/common/ServiceMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xrpc-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xrpc-registry/src/main/java/top/sc_xy/xrpc/registry/RegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xrpc-server/src/main/java/top/sc_xy/xrpc/server/RpcProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xrpc-server/src/main/java/top/sc_xy/xrpc/server/annotation/RpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/RpcRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/RpcRequestSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/server/RpcRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/server/RpcRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/top/sc_xy/xrpc/client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/top/sc_xy/xrpc/server/HelloServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/top/sc_xy/xrpc/server/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/src/main/java/top/sc_xy/xrpc/NameServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/src/main/java/top/sc_xy/xrpc/XrpcPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/src/main/java/top/sc_xy/xrpc/spi/ServerLoadException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/src/main/java/top/sc_xy/xrpc/spi/ServerLoadSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-api/src/main/java/top/sc_xy/xrpc/spi/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-client/src/main/java/top/sc_xy/xrpc/client/annotation/RpcReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xrpc-netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/NettyXrpcPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/DynamicStubFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/RequestIdSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/ServerStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/ServerTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/StubFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/stubs/AbstractStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/client/stubs/RpcRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/nameServer/LoadFileNameServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/nameServer/MetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/SerializeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/SerializerSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/MetaDataSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/RpcRequestSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/StringSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/Types.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/server/RpcRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/server/ServerProviderRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/InTransitRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/RequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/RequestHandlerRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/ResponseFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/Transport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/TransportClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/TransportServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/command/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/command/Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/command/ResponseHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/CommandDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/CommandEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/NettyTransport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/RequestDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/RequestEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/RequestInvocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/ResponseDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/ResponseEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/transport/netty/ResponseInvocation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +84,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -58,6 +119,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Main/WorkSpace/java/ideaprojects/xrpc/xrpc-register/src/main/java/top/sc_xy/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -70,7 +132,7 @@
   <component name="RunManager" selected="应用程序.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.sc_xy.xrpc.client.Client" />
-      <module name="client" />
+      <module name="xrpc-client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.sc_xy.xrpc.client.*" />
@@ -83,7 +145,7 @@
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.sc_xy.xrpc.server.Server" />
-      <module name="server" />
+      <module name="xrpc-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.sc_xy.xrpc.server.*" />
@@ -123,32 +185,16 @@
       <workItem from="1715869907446" duration="7526000" />
       <workItem from="1718523945066" duration="92000" />
       <workItem from="1719159082940" duration="1314000" />
-      <workItem from="1719243898358" duration="7443000" />
+      <workItem from="1719243898358" duration="7641000" />
+      <workItem from="1719332916844" duration="25000" />
+      <workItem from="1719407822186" duration="174000" />
+      <workItem from="1721578823982" duration="2441000" />
+      <workItem from="1725703191012" duration="6557000" />
+      <workItem from="1725889187870" duration="9364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/server/RpcRequestHandler.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/RpcRequestSerializer.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xrpc-netty/src/main/java/top/sc_xy/xrpc/serialize/impl/RpcRequestSerializer.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
