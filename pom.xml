@@ -63,6 +63,11 @@
                 <artifactId>xrpc-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>top.sc_xy.xrpc</groupId>
+                <artifactId>xrpc-netty</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
             <!-- slf4j -->
             <dependency>
                 <groupId>org.slf4j</groupId>

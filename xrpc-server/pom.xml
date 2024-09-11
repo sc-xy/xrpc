@@ -50,6 +50,10 @@
             <groupId>top.sc_xy</groupId>
             <artifactId>xrpc-registry</artifactId>
         </dependency>
+        <dependency>
+            <groupId>top.sc_xy.xrpc</groupId>
+            <artifactId>xrpc-netty</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
